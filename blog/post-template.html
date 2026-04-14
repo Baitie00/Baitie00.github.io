@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[Post Title] — [Your Name]</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="post.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-name">[Your Name]</a>
+      <div class="nav-links">
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#publications">Publications</a>
+        <a href="../index.html#research">Research</a>
+        <a href="../index.html#blog">Blog</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="post-main">
+    <article>
+      <header class="post-header">
+        <p class="post-meta">[Date] · [Tag1] · [Tag2]</p>
+        <h1>[Post Title]</h1>
+        <p class="post-subtitle">[Optional one-line summary of the post]</p>
+      </header>
+
+      <div class="post-body">
+
+        <p>
+          Opening paragraph. Introduce the topic and why it's interesting.
+        </p>
+
+        <h2>Section 1</h2>
+        <p>
+          Body text here. You can use standard HTML elements.
+        </p>
+
+        <!-- Code block -->
+        <pre><code>import torch
+# your code here</code></pre>
+
+        <!-- Math (requires KaTeX or MathJax — see comment below) -->
+        <!-- To enable math rendering, uncomment the KaTeX script tags at the bottom -->
+        <p>
+          Inline math example: <span class="math">\( \mathcal{L} = \|u_\theta - u\|^2 \)</span>
+        </p>
+        <div class="math-block">
+          \[ \frac{\partial u}{\partial t} = f(u, x, t) \]
+        </div>
+
+        <h2>Section 2</h2>
+        <p>More content...</p>
+
+        <blockquote>
+          A key insight or quote worth highlighting.
+        </blockquote>
+
+      </div>
+
+      <footer class="post-footer">
+        <a href="../index.html#blog">← Back to Blog</a>
+      </footer>
+    </article>
+  </main>
+
+  <!-- KaTeX for math rendering (uncomment to enable) -->
+  <!--
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters: [
+      {left:'$$',right:'$$',display:true},
+      {left:'$',right:'$',display:false},
+      {left:'\\[',right:'\\]',display:true},
+      {left:'\\(',right:'\\)',display:false}
+    ]})">
+  </script>
+  -->
+
+</body>
+</html>

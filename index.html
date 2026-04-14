@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[Your Name] — Academic Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <span class="nav-name">[Your Name]</span>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#research">Research</a>
+        <a href="#blog">Blog</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO / ABOUT -->
+    <section id="about">
+      <div class="about-grid">
+        <div class="about-photo">
+          <img src="assets/avatar.jpg" alt="[Your Name]" onerror="this.style.background='#e0e0e0';this.removeAttribute('src')" />
+        </div>
+        <div class="about-text">
+          <h1>[Your Name]</h1>
+          <p class="affiliation">PhD Student · <a href="#" target="_blank">[Your University]</a></p>
+          <p class="bio">
+            I am a PhD student at [Your University], advised by
+            <a href="#" target="_blank">Prof. [Advisor Name]</a>.
+            My research focuses on <strong>[Your Research Area]</strong>,
+            with particular interest in [specific topics, e.g., scientific machine learning,
+            neural operators, and physics-informed deep learning].
+          </p>
+          <p class="bio">
+            Before my PhD, I received my B.S./M.S. in [Field] from [University].
+          </p>
+          <div class="links">
+            <a href="mailto:you@university.edu">Email</a>
+            <a href="assets/cv.pdf" target="_blank">CV</a>
+            <a href="https://scholar.google.com" target="_blank">Google Scholar</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://twitter.com/yourusername" target="_blank">Twitter / X</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li><span class="date">Apr 2025</span> Paper accepted at [Conference].</li>
+        <li><span class="date">Jan 2025</span> Started internship at [Company/Lab].</li>
+        <li><span class="date">Sep 2024</span> Started PhD at [University].</li>
+      </ul>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="section-note">* denotes equal contribution.</p>
+
+      <div class="pub-list">
+
+        <div class="pub-item">
+          <div class="pub-thumb">
+            <img src="assets/pub1-thumb.png" alt="" onerror="this.parentElement.style.background='#f0f0f0'" />
+          </div>
+          <div class="pub-info">
+            <p class="pub-title">
+              <a href="#" target="_blank">[Paper Title 1]</a>
+            </p>
+            <p class="pub-authors">
+              <strong>[Your Name]</strong>, [Co-author 1], [Co-author 2]
+            </p>
+            <p class="pub-venue">[Conference / Journal], [Year]</p>
+            <div class="pub-links">
+              <a href="#" class="tag">Paper</a>
+              <a href="#" class="tag">Code</a>
+              <a href="#" class="tag">Project Page</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-thumb">
+            <img src="assets/pub2-thumb.png" alt="" onerror="this.parentElement.style.background='#f0f0f0'" />
+          </div>
+          <div class="pub-info">
+            <p class="pub-title">
+              <a href="#" target="_blank">[Paper Title 2]</a>
+            </p>
+            <p class="pub-authors">
+              [Co-author 1], <strong>[Your Name]</strong>, [Co-author 2]
+            </p>
+            <p class="pub-venue">[Conference / Journal], [Year]</p>
+            <div class="pub-links">
+              <a href="#" class="tag">Paper</a>
+              <a href="#" class="tag">Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RESEARCH PROJECTS -->
+    <section id="research">
+      <h2>Research</h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <h3>[Project Title 1]</h3>
+          <p>[Short description of the project. What problem does it solve? What's the key idea?]</p>
+          <div class="pub-links">
+            <a href="#" class="tag">Paper</a>
+            <a href="#" class="tag">Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>[Project Title 2]</h3>
+          <p>[Short description of the project.]</p>
+          <div class="pub-links">
+            <a href="#" class="tag">Paper</a>
+            <a href="#" class="tag">Demo</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>[Project Title 3]</h3>
+          <p>[Short description of the project.]</p>
+          <div class="pub-links">
+            <a href="#" class="tag">Code</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog">
+      <h2>Blog / Thoughts</h2>
+      <p class="section-note">Notes on research, ideas, and things I find interesting.</p>
+      <ul class="blog-list">
+
+        <li class="blog-item">
+          <a href="blog/post1.html">
+            <span class="blog-title">[Post Title 1]</span>
+            <span class="blog-meta">[Date] · [Tag]</span>
+          </a>
+        </li>
+
+        <li class="blog-item">
+          <a href="blog/post2.html">
+            <span class="blog-title">[Post Title 2]</span>
+            <span class="blog-meta">[Date] · [Tag]</span>
+          </a>
+        </li>
+
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> [Your Name] · Last updated <span id="updated"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('updated').textContent = new Date().toLocaleDateString('en-US', {month:'long', year:'numeric'});
+  </script>
+
+</body>
+</html>
