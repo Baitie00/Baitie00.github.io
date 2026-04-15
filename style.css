@@ -162,7 +162,7 @@ h2 {
   gap: 0.45rem;
 }
 
-.news-list li { display: flex; gap: 1rem; align-items: baseline; }
+.news-list li { display: flex; gap: 1rem; align-items: baseline; flex-wrap: wrap; }
 
 .date {
   flex-shrink: 0;
